@@ -1,0 +1,15 @@
+body {
+    background-color: #FFE;
+}
+h4 {
+	color: #887;
+	font-style: italic;
+}
+a {
+	color: #900;
+	text-decoration: none;
+}
+img {
+	border-style: solid;
+    border-color: #000000;
+}
