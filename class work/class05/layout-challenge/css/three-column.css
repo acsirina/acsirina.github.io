@@ -1,0 +1,42 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+}
+
+header {
+  background: red;
+}
+
+ left-content {
+  float: left;
+  width: 20% ;
+  background: yellow;
+  /*margin: 10px 10px;
+  margin-left: 0px;*/
+}
+
+center-content {
+  float: left;
+  width: 60%;
+  background: green;
+  /*margin: 10px 10px;*/
+}
+
+right-content {
+  float: right;
+  background: blue;
+  width: 20%;
+  margin: /*10px 10px;
+  margin-right: 0px;*/
+}
+
+
+.clearfix:after {
+	  content:"";
+	  display:table;
+	  clear: both;
+	}

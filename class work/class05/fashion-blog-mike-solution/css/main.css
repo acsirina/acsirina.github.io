@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #ffffff;
+	color: #444444;
+}
+
+.wrapper {
+	padding: 54px;
+	width: 720px;
+	border-left: 6px solid #dddddd;
+}
+
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aa0000;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 54px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+h2 a {
+	color: black;
+}
+
+h2 a:hover {
+	color: #DD0000;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	width: 100%;
+}
+
+/* Header */
+.header h2 {
+	font-size: 27px;
+	margin-bottom: 9px;
+}
+
+
+/* .header .nav a */
+.header-nav-link {
+	font-size: 22px;
+	margin-right: 16px;
+	color: #dddddd;
+	border-bottom: 2px solid #eeeeee;
+}
+
+
+/* .header .nav a:hover */
+.header-nav-link:hover {
+	color: black;
+	border-bottom: 2px solid #bbbbbb;
+}
+
+/* Article */
+.article {
+	border-bottom: 1px solid #dddddd;
+	margin: 54px 0;
+	padding-bottom: 27px;
+}
+
+/* Footer */
+.footer {
+	color: #bbbbbb;
+}
+
+/*
+Instructions: 
+
+Complete the fashion blog from the attached screenshot. Take a look at the copy.txt for what to plug into the HTML.
+
+Some values you will also need:
+
+Content:
+    720px wide
+    54px of padding
+    solid, left, 6px, border, #dddddd
+
+High-level text properties:
+    #444444
+    "Lato" font
+    1.5 line-height
+
+"Better Dressed People":
+    black
+
+Links:
+    #DD0000
+
+Links hover:
+    #aa0000
+
+Navigation links:
+    #dddddd
+
+Navigation links hover:
+    black
+
+Date: 
+    #cccccc
+
+Article Title
+    black
+
+Copyright
+    #bbbbbb
+
+If we were working with a real design document, you would be able to get the precise pixel values for line height, font size, margin, padding, etc. Just approximate as best you can.
+*/

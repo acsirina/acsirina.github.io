@@ -1,0 +1,36 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+}
+
+header {
+  background: red;
+}
+
+main {
+  background: yellow;
+  float: left;
+  width: 700px ;
+}
+
+aside {
+  background: green;
+  float: right;
+  width: 300px;
+}
+
+footer {
+  background: blue;
+}
+
+
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+
