@@ -1,0 +1,25 @@
+body {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 50px;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	margin: 40px;
+}
+
+li {
+	list-style: none;
+	font-size: 22px;
+}
+
+a, a:visited  {
+	color: white;
+	font-weight: bold;
+}

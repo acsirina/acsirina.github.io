@@ -72,7 +72,11 @@ img {
 	font-size: 27px;
 	margin-bottom: 9px;
 }
-
+.nav{
+	background: black;
+	height: 50px;
+	text-decoration: none;
+}
 
 /* .header .nav a */
 .header-nav-link {
@@ -80,7 +84,7 @@ img {
 	margin-right: 16px;
 	color: #dddddd;
 	border-bottom: 2px solid #eeeeee;
-	background: black;
+	/*text-decoration: none;*/
 }
 
 
@@ -95,6 +99,11 @@ img {
 	border-bottom: 1px solid #dddddd;
 	margin: 54px 0;
 	padding-bottom: 27px;
+}
+.firstcharacter{
+	float:left;
+	color:red;
+	fontsize:75;
 }
 
 /* Footer */

@@ -1,0 +1,43 @@
+
+
+.wraper{
+	background: grey;
+	padding: 15px;
+	
+}
+
+.black{
+	background: black;
+	color: white;
+	size: 20px;
+	border: white;
+	padding: 5px;
+	margin: 15px;
+}
+
+.orange{
+	background: orange;
+	color: purple;
+	padding: 20px;
+	border: white;
+	margin: 15px;
+}
+.purple-text{
+	color:purple;
+	padding: 15px;
+	margin: 15px;
+}
+.yellow-text{
+	color: yellow;
+	padding: 20px;
+	margin: 15px;
+}
+.green-text{
+	color: green;
+	padding: 20px;
+	margin: 15px;
+
+}
+p {
+	text-align: center;
+}
