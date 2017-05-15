@@ -59,7 +59,8 @@ span.underlined{
 }
 section.banner{
 	background-image: url(../img/coworking.jpg);
-	background-position:center center no-repeat;
+	background-position:center;
+	background-size: cover;
 	padding: 80px 10px;
 	margin-bottom: 20px;
 }
