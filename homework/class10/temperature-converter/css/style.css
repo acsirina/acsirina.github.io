@@ -1,0 +1,85 @@
+body {
+	background-color: #C4DFE6;
+	line-height: 1.5;
+}
+.wrapper {
+	width: 1080px;
+	margin: 0 auto;
+	padding: 54px;
+}
+.header {
+	width: 1080px;
+	margin: 0 auto;
+	padding: 0 0px;
+	border-bottom: solid 1px;
+	border-color: #66A5AD;
+}
+
+.clearfix:after {
+    content:"";
+    display:table;
+    clear: both;
+  }
+ h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: lighter;
+	color: #003b46;
+	font-size: 28px;
+}
+span {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #003b46;
+	font-weight: lighter;
+	font-size: 18px;
+	color: #003b46;
+}
+
+.left {
+	width: 500px;
+	float: left;
+	line-height:4;
+	padding-top:20px;
+}
+
+input {
+	border: solid 1px;
+	border-color: #66A5AD;
+	color:#003b46;
+	font-family:'Lora', serif;
+	font-size: 16px;
+	margin-top:15px;
+
+
+}
+
+p.funfacts{
+	width:540px;
+	float: right;
+	font-family:'Lora', serif;
+	padding: 0px 20px;
+	color: #ffffff;
+	font-size: 34px;
+}
+button {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #003b46;
+	font-weight: lighter;
+	font-size: 18px;
+	color: #003b46;
+	width: 50px;
+}
+
+/*.clearfix:after {
+    content:"";
+    display:table;
+    clear: both;
+  }
+*/
+
+
+
+
+
+
+/*font-family: 'Merriweather Sans', sans-serif;
+*/

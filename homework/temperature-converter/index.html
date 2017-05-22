@@ -7,7 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+  oninput="temperatureConverter(this.value)"
+  onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputCelsius"></span></p>
 	<script type="text/javascript" src="js/project.js"></script>
 </body>
 </html>
