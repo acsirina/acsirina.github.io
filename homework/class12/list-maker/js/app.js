@@ -17,16 +17,30 @@ $('#clickme').click(function(){
 	console.log('click working');
 	
 	var newItem = $('#item').val();
+	if (!$('#item').val() ){
+		alert ('nothing in');
+	}
+	else appendItem(newItem);
+  	
+ });
+function appendItem(newItem){
+	console.log('function works');
+ 	$('ul').append('<li>' + newItem + '</li>');
+ 	$('#item').val('');
+ 	$('#item').focus();
+ 	$('li').click(function(){
+ 		$(this).remove();
+ 	});
 
-  	var appendItem = newItem;
+};
 
- 	$('#list').append(appendItem);
- 	$('#item').empty(newItem);
- 	
- })
+// mikes solution to legendary bonus
+	
 
-//  	$('#item').focus(function(){
-//     $('item').css("display", "inline").fadeOut(2000);
+  $('#list').on('click', 'li',function(){
+  	$(this).remove();
+  });
+ 
 // })
 	// 1. Attach a .click() event to #clickme; attach an anonymous function to the .click()
 	// 1A. This anonymous function should create a variable, newItem equal to the value of #item
@@ -34,4 +48,4 @@ $('#clickme').click(function(){
 	// 1C. This anonymous function should then clear the text inside of #item
 
 	// 2. Write the appendItem function here
-})
+});

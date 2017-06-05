@@ -1,0 +1,21 @@
+body {
+  font-size: 18px;
+  background: blue;
+}
+
+.container {
+  background: rgb(222,222,222);
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 350px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 15px 15px 15px black;
+}
+
+p {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  box-shadow: 5px 5px 3px black;
+}
