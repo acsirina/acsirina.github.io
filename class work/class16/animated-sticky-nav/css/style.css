@@ -1,0 +1,36 @@
+.wrapper {
+	text-align: center;
+	padding:100px;
+}
+body {
+	padding: 100px;
+
+}
+header {
+	background: SeaGreen;
+	position: fixed;
+	top: 0;
+	left:0;
+	right:0;
+	height: 100px;
+	transition: all .3s ease-out;
+}
+
+header h1{
+	color: white;
+	font-size: 50px;
+	transition: all .3s ease-out;
+}
+.small-header {
+	background: aquamarine;
+	height: 30px;
+}
+small-header h1 {
+	font-size: 20px;
+}
+img {
+	width: 70%;
+	display: block;
+	margin: 30px auto 0;
+}
+

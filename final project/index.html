@@ -1,10 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <img src="about_drawing.png">
-        <h1>Hello, World!</h1>
-    </body>
+   <head>
+      <meta charset="utf-8">
+      <title>Elite Rowing LLC</title>
+      <link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rufina" rel="stylesheet">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+     <!--  <div class="wrapper"> -->
+         <header>
+            <nav>
+               <ul>
+                  <li><a href="#" class="home-nav-link acasa">Home</a></li>
+                  <li><a href="#" class="about-nav-link despre">About</a></li>
+                  <li><a href="#" class="program-nav-link programe">Programs</a></li>
+                  <li><a href="#" class="join-nav-link inscriete">Join</a></li>
+               </ul>
+            </nav>
+         </header>
+         <!-- Home section -->
+         <div class=" home-section">
+            <div  class="slide home">
+               <img src= "./images/eliterowing_logo.png" class="logo">
+               <p class="text-with-logo"> Training + Consulting  +  Teambuilding</p>
+            </div>
+         </div>
+         <!-- About section -->
+         <div class="about-section">
+            <h1 class="home-head">About</h1>
+            <div class="slide about">
+               <div class="content bio-picture">
+                  <img src= "./images/costel.jpg" class="costel">
+               </div>
+               <div class="content bio-words">
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                  </p>
+               </div>
+            </div>
+            <div class="end-border"></div>
+         </div>
+         <!-- Programs section -->
+         <div class="program-section">
+            <h1 class="programs-head">Programs</h1>
+            <div  class="programs">
+                 
+                  <figure class="gradeschool prog">
+                      <img src= "./images/juniors.jpg">
+                      <figcaption>
+                        <h2>Middle School / High School</h2>
+                        <p>Juniors are great rowers</p>
+                        <a href="#"></a>
+                     </figcaption>
+                  </figure>
+                  
+               
+                  <figure class="masters prog">
+                      <img src= "./images/masters.jpg">
+                      <figcaption>
+                        <h2>Masters</h2>
+                        <p> Masters are great rowers</p>
+                    </figcaption>
+                  </figure>
+              
+              
+                  <figure class="teambuilding prog">
+                     <img src= "./images/teambuilding.jpg">
+                     <figcaption>
+                       <h2>Team Building</h2>
+                       <p>“Coming together is the beginning. “Coming together is the beginning. Keeping together is progress. Working together is success.”</p>
+                    </figcaption> 
+                  </figure>
+             
+            </div>
+            <div class="end-border"></div>
+            <!-- Join section -->
+            <div class="join-section">
+               <h1>Join</h1>
+               <div  class="slide join">
+                  <div class="words">
+                     <div class="content goal-words">
+                        <p> <span>Ready... Set... Row!</span> <br><br>Share your previous rowing experience and your future goals.</p>
+                     </div>
+                  </div>
+                  <form action="https://formspree.io/acsirina@gmail.com" method="POST">
+                                <input type="text" class="name-form" placeholder='Name' name='name'>
+                                <input type="text" class="email-form" placeholder='Email' name='email'>
+                                <textarea type="text" class="message" name='Message' placeholder='Tell Us More'></textarea>
+                                <input type="submit" value="send" name='submit' id="submit">
+                            </form>
+                  <!-- <div class="forms">
+                     <div class="content four-forms">
+                           <input class="name-form" type="text" name="name" placeholder="Name">
+                           <input class="email-form" type="text" email="email" placeholder="Email">     
+                           <textarea class="message" type="text" info="info" placeholder="Message"></textarea>
+                        <input class="submit" type="button" value="Send" onclick="msg()">
+                     </div> -->
+                  </div>
+               </div>
+            </div>
+            <div class="end-border-last"></div>
+         </div>
+      <!-- </div> -->
+      <footer>
+         &copy; 2017 Elite Rowing LLC.
+      </footer>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+
+   </body>
 </html>
