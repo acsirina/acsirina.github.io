@@ -1,6 +1,6 @@
 html, body {
 	height: 100%;
-	width: 100%;
+	width: 100vw;
 	font-size: 12px;
 }
 
@@ -20,7 +20,7 @@ header {
     align-content: center;
     align-items: flex-start;
 	background: rgba(255,255,255,.4);
-	 position: fixed;
+	position: fixed;
     width: 100%;
     height: 100px;
     z-index: 1;
@@ -148,7 +148,10 @@ background: #4B6577;
 	width: 100%
 }
 
-
+.about.section {
+	/*display: flex;*/
+	width: 100%;
+}
 .about {
 
 	display:flex;
@@ -163,7 +166,7 @@ background: #4B6577;
 .bio-picture {
 
 	display: flex;
-	justify-content: center;
+	/*justify-content: center;*/
     align-content: center;
     align-items: center;
 	width: 40%;
@@ -171,16 +174,19 @@ background: #4B6577;
 
 .bio-picture img {
 	width: 90%
+
 }
 
 .bio-words {
 	align-items: flex-start;
 	width: 70%;
+	padding: 20px;
 }
 .bio-words p {
-	font-size: 1.2rem;
-	padding: 10px;
+	font-size: 1.5rem;
+	padding: 20px;
 	font-weight: 300;
+	line-height: 3rem;
 }
 
 
@@ -200,6 +206,10 @@ background: #4B6577;
       
 }
 
+.program-detail {
+	display: none;
+}
+
 
 /************************------programs-sections----*****************************/
 
@@ -208,7 +218,7 @@ figure.prog {
   position: relative;
   background: #000000;
   text-align: center;
-  width: 33%;
+  width: 35%;
   margin: 0;
 }
 
@@ -254,6 +264,7 @@ figure.prog p {
   transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
 }
 figure.prog h2 {
+	padding: 170px 0;
 	font-size: 1.2rem;
   word-spacing: -0.15em;
   font-weight: 300;
@@ -271,6 +282,7 @@ figure.prog p {
   font-weight: 200	;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
+  display: none;
 }
 figure.prog a {
   left: 0;
@@ -333,6 +345,11 @@ span {
 	font-weight:bold;
 	color: #456EA2;
 }
+form {
+	padding: 10px;
+	margin: 20px;
+	
+}
 .forms {
 	align-items: flex-start;
 	width: 70%;
@@ -385,6 +402,7 @@ textarea {
 	font-size: .9rem;
     text-transform: uppercase;
 
+
 }
 .end-border-last {
 	margin-bottom: 100px;
@@ -394,12 +412,14 @@ textarea {
 
 /*footer *********************************/
 footer {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: white;
 	background: rgba(255,255,255,.4);
   text-align: center;
   position: relative;
-
   width: 100%;
+
+
 }
+
 
